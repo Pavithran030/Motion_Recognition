@@ -82,23 +82,30 @@ cd Motion_Recognition
 
 ```bash
 
-- python -m venv venv
+python -m venv venv
 
 ```
 - source venv/bin/activate    # On Windows: venv\Scripts\activate
 
 ### 3. Install Dependencies
+```bash
 
-- pip install -r requirements.txt
+pip install -r requirements.txt
+
+```
 
 ### 4. Run the Motion Capture Script
 
-- python scripts/capture_points.py
+```bash
+python scripts/capture_points.py
+
+```
 
 ### 5. Recognize the Action (Optional)
 
-- python scripts/recognize_action.py
-
+```bash
+python scripts/recognize_action.py
+```
 ### 🕹 Unity Integration Guide
 Steps:
 - Open the unity_integration folder in Unity.
