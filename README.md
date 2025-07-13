@@ -16,6 +16,8 @@ This project focuses on **real-time human motion recognition** using **OpenCV**,
 
 ## 📁 Folder Structure
 
+<pre lang="markdown"> ``` Motion_Recognition/ ├── dataset/ # Dataset for training/testing ├── models/ # Saved model files ├── scripts/ # Python scripts for detection and recognition │ ├── capture_points.py │ ├── recognize_action.py │ └── preprocess_data.py ├── unity_integration/ # Unity assets and scripts │ └── AnimateFromText.cs ├── outputs/ # Result files and logs ├── sample_videos/ # Example input videos └── README.md # Project documentation ``` </pre>
+
 Motion_Recognition/
 │
 ├── dataset/ # Custom dataset for training/testing (CSV, TXT)
