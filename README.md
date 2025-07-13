@@ -20,11 +20,11 @@ This project focuses on **real-time human motion recognition** using **OpenCV**,
 
 Motion\_Recognition/
 
-├── dataset/    \t# Dataset for training/testing
+├── dataset/                               # Dataset for training/testing
 
-├── models/     \t# Saved model files
+├── models/                                # Saved model files
 
-├── scripts/      \t# Python scripts for detection and recognition
+├── scripts/                               # Python scripts for detection and recognition
 
 │   ├── capture\_points.py
 
@@ -32,15 +32,15 @@ Motion\_Recognition/
 
 │   └── preprocess\_data.py
 
-├── unity\_integration/    \t# Unity assets and scripts
+├── unity\_integration/                    # Unity assets and scripts
 
 │   └── AnimateFromText.cs
 
-├── outputs/       \t# Result files and logs
+├── outputs/                               # Result files and logs
 
-├── sample\_videos/       \t# Example input videos
+├── sample\_videos/                        # Example input videos
 
-└── README.md     \t# Project documentation
+└── README.md                              # Project documentation
 
 \`\`\`
 
