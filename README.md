@@ -20,46 +20,29 @@ This project focuses on **real-time human motion recognition** using **OpenCV**,
 
 Motion\_Recognition/
 
-├── dataset/ # Dataset for training/testing
+├── dataset/    # Dataset for training/testing
 
-├── models/ # Saved model files
+├── models/     # Saved model files
 
-├── scripts/ # Python scripts for detection and recognition
+├── scripts/      # Python scripts for detection and recognition
 
-│ ├── capture\_points.py
+│   ├── capture\_points.py
 
-│ ├── recognize\_action.py
+│   ├── recognize\_action.py
 
-│ └── preprocess\_data.py
+│   └── preprocess\_data.py
 
-├── unity\_integration/ # Unity assets and scripts
+├── unity\_integration/    # Unity assets and scripts
 
-│ └── AnimateFromText.cs
+│   └── AnimateFromText.cs
 
-├── outputs/ # Result files and logs
+├── outputs/       # Result files and logs
 
-├── sample\_videos/ # Example input videos
+├── sample\_videos/       # Example input videos
 
-└── README.md # Project documentation
+└── README.md     # Project documentation
 
 \`\`\`
-
-Motion_Recognition/
-│
-├── dataset/ # Custom dataset for training/testing (CSV, TXT)
-├── models/ # Trained model weights (CNN + LSTM, etc.)
-├── scripts/ # Python files for motion detection and recognition
-│ ├── capture_points.py # Capture pose landmarks from video
-│ ├── recognize_action.py # Predict action using trained model
-│ ├── export_to_txt.py # Export landmarks to text file
-│ └── preprocess_data.py # Format data for training
-├── unity_integration/ # Unity project and scripts
-│ ├── Assets/ # Unity assets including 3D model
-│ └── AnimateFromText.cs # C# script to map motion to model
-├── sample_videos/ # Sample video files for testing
-├── outputs/ # Output pose overlays and predictions
-└── README.md # You are here!
-
 
 ---
 
