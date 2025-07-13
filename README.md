@@ -77,41 +77,42 @@ cd Motion_Recognition
 
 ### 2. Create a Python Virtual Environment
 
-python -m venv venv
-source venv/bin/activate    # On Windows: venv\Scripts\activate
+- python -m venv venv
+- source venv/bin/activate    # On Windows: venv\Scripts\activate
 
 ### 3. Install Dependencies
 
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
 ### 4. Run the Motion Capture Script
 
-python scripts/capture_points.py
+- python scripts/capture_points.py
 
 ### 5. Recognize the Action (Optional)
 
-python scripts/recognize_action.py
+- python scripts/recognize_action.py
 
 ### 🕹 Unity Integration Guide
 Steps:
-Open the unity_integration folder in Unity.
+- Open the unity_integration folder in Unity.
 
-Place your .txt motion data file in the Resources folder.
+- Place your .txt motion data file in the Resources folder.
 
-Attach the AnimateFromText.cs script to your character object.
+- Attach the AnimateFromText.cs script to your character object.
 
-Configure bone mapping in the script (e.g., head = "Head", left arm = "LeftArm").
+- Configure bone mapping in the script (e.g., head = "Head", left arm = "LeftArm").
 
-Hit Play to view the animation based on your motion file.
+- Hit Play to view the animation based on your motion file.
 
 ### 🧪 Model Training (Optional)
-If you want to train your own model:
 
-Collect motion sequences and export them from videos.
+- If you want to train your own model:
 
-Run scripts/preprocess_data.py to prepare the dataset.
+- Collect motion sequences and export them from videos.
 
-Build a CNN + LSTM model (template coming soon).
+- Run scripts/preprocess_data.py to prepare the dataset.
+
+- Build a CNN + LSTM model (template coming soon).
 
 Train using TensorFlow or PyTorch.
 
