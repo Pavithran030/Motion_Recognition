@@ -71,13 +71,20 @@ Motion_Recognition/
 ## 🔧 Setup Instructions
 
 ### 1. Clone the Repository
+```bash
 
 git clone https://github.com/Pavithran030/Motion_Recognition.git
 cd Motion_Recognition
 
+```
+
 ### 2. Create a Python Virtual Environment
 
+```bash
+
 - python -m venv venv
+
+```
 - source venv/bin/activate    # On Windows: venv\Scripts\activate
 
 ### 3. Install Dependencies
