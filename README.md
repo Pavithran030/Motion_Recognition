@@ -80,19 +80,19 @@ cd Motion_Recognition
 python -m venv venv
 source venv/bin/activate    # On Windows: venv\Scripts\activate
 
-###3. Install Dependencies
+### 3. Install Dependencies
 
 pip install -r requirements.txt
 
-###4. Run the Motion Capture Script
+### 4. Run the Motion Capture Script
 
 python scripts/capture_points.py
 
-###5. Recognize the Action (Optional)
+### 5. Recognize the Action (Optional)
 
 python scripts/recognize_action.py
 
-###🕹 Unity Integration Guide
+### 🕹 Unity Integration Guide
 Steps:
 Open the unity_integration folder in Unity.
 
@@ -104,7 +104,7 @@ Configure bone mapping in the script (e.g., head = "Head", left arm = "LeftArm")
 
 Hit Play to view the animation based on your motion file.
 
-###🧪 Model Training (Optional)
+### 🧪 Model Training (Optional)
 If you want to train your own model:
 
 Collect motion sequences and export them from videos.
